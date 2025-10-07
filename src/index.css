@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #eaeaea;
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #eaeaea trasparent;
+  padding-right: 8px;
+}
+
+input[type="file"]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #f9f9fc;
+  padding: 10px 20px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: #858d9d;
+  cursor: pointer;
+}
+
+.ql-toolbar.ql-snow,
+.ql-container.ql-snow {
+  border: 1px solid #e0e2e7 !important;
+}
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+  border-top: 0 !important;
+}
+.ql-toolbar {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.ql-container {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: none;
+}
+
+.dahnUA,
+.ggomLY {
+  font-weight: 500;
+  font-size: 14px;
+  color: #333843;
+}
+
+.rdt_TableHeadRow,
+.rdt_TableRow {
+  border-bottom-color: #f0f1f3 !important;
+}
+.rdt_TableHeadRow {
+  background-color: #f9f9fc !important;
+}
+.rdt_Pagination {
+  border-top-color: #f0f1f3 !important;
+}
